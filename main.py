@@ -2,7 +2,10 @@ import json
 import os
 import sys
 import tkinter as tk
+import uuid
 from tkinter import messagebox, ttk
+
+import vlc
 
 if sys.platform == "win32":
     import ctypes
@@ -13,6 +16,8 @@ if sys.platform == "win32":
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
+
+        self.radios_map = {}
 
         self.title("广播直播")
         self.wm_minsize(600, 400)
@@ -58,47 +63,59 @@ class App(tk.Tk):
             yscrollcommand=tree_scrollbar.set, xscrollcommand=tree_scroll_x.set
         )
 
+        self.tree.bind("<Double-1>", self.on_tree_double_click)
+
         # 右侧：上为播放区，下为控制区
         right_frame.rowconfigure(0, weight=5)
         right_frame.rowconfigure(1, weight=1)
         right_frame.columnconfigure(0, weight=1)
 
-        # 播放区 Canvas/placeholder
-        self.player_area = tk.Label(
-            right_frame, text="VLC播放器窗口", bg="black", fg="white"
-        )
+        # 播放区，Frame用于嵌入VLC
+        self.player_area = tk.Frame(right_frame, bg="black", width=400, height=300)
         self.player_area.grid(row=0, column=0, sticky="nsew", padx=5, pady=(5, 2))
 
         # 控制按钮区
         control_frame = tk.Frame(right_frame)
         control_frame.grid(row=1, column=0, sticky="ew", padx=5, pady=(2, 5))
 
-        play_btn = ttk.Button(control_frame, text="播放")
-        pause_btn = ttk.Button(control_frame, text="暂停")
-        stop_btn = ttk.Button(control_frame, text="停止")
+        play_btn = ttk.Button(control_frame, text="播放", command=self.vlc_play)
+        pause_btn = ttk.Button(control_frame, text="暂停", command=self.vlc_pause)
+        stop_btn = ttk.Button(control_frame, text="停止", command=self.vlc_stop)
         play_btn.pack(side="left", padx=(0, 5))
         pause_btn.pack(side="left", padx=(0, 5))
         stop_btn.pack(side="left")
 
-        # self.update_idletasks()
-        # self.geometry(f"{self.winfo_reqwidth()}x{self.winfo_reqheight()}")
+        # ----------- VLC 相关 重点 -----------
+        self.vlc_instance = vlc.Instance("--audio-visual=visual")
+        self.vlc_player = self.vlc_instance.media_player_new()
+
+        self.bind("<Map>", self._on_map)  # 确保窗口创建后再嵌入
 
         # ----------- 启动后自动加载 -----------
         self.after(100, self.load_radios_from_default)
 
     def load_radios_tree(self, result):
+        """
+        加载广播分组与广播到Treeview，并为每个广播分配唯一iid，保存iid和url映射。
+        """
+
         def add_nodes(parent, groups):
             for group in groups:
                 node = self.tree.insert(
                     parent, "end", text=group.get("name") or "未命名"
                 )
+                # 广播
                 for radio in group.get("radios", []):
+                    iid = str(uuid.uuid4())
                     self.tree.insert(
                         node,
                         "end",
+                        iid=iid,
                         text=radio.get("name") or "未命名",
                         values=(radio.get("description") or "",),
                     )
+                    self.radios_map[iid] = radio
+                # 子分组递归
                 for child in group.get("children", []):
                     add_nodes(node, [child])
 
@@ -124,6 +141,43 @@ class App(tk.Tk):
             messagebox.showerror("错误", f"读取广播列表JSON失败: {e}", parent=self)
             print(f"读取广播列表JSON失败: {e}")
             return []
+
+    def _on_map(self, event=None):
+        """窗口映射后获取window id，把vlc渲染嵌入player_area"""
+        win_id = self.player_area.winfo_id()
+        if sys.platform.startswith("win"):
+            self.vlc_player.set_hwnd(win_id)
+        elif sys.platform.startswith("linux"):
+            self.vlc_player.set_xwindow(win_id)
+        elif sys.platform == "darwin":
+            self.vlc_player.set_nsobject(win_id)
+        # 只绑定一次
+        self.unbind("<Map>")
+
+    def vlc_play(self):
+        # 示例：播放本地或网络流
+        media = self.vlc_instance.media_new("https://www.radiostream.com/someurl.mp3")
+        self.vlc_player.set_media(media)
+        self.vlc_player.play()
+
+    def vlc_pause(self):
+        self.vlc_player.pause()
+
+    def vlc_stop(self):
+        self.vlc_player.stop()
+
+    def on_tree_double_click(self, event):
+        # 获取鼠标所在item的iid
+        item = self.tree.identify_row(event.y)
+        if not item:
+            return
+        if radio := self.radios_map.get(item):
+            # 获取第一个流的URL
+            stream_url = radio.get("streams", [{}])[0].get("url")
+            self.vlc_player.stop()
+            media = self.vlc_instance.media_new(stream_url)
+            self.vlc_player.set_media(media)
+            self.vlc_player.play()
 
 
 def main():
