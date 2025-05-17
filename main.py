@@ -275,7 +275,9 @@ class App(tk.Tk):
     def reset_time_label(self):
         self.time_label.config(text="--:--")
 
-    def keep_player_area_square(self, _event):
+    def keep_player_area_square(self, event):
+        size = min(event.width, event.height, 400)
+        self.player_area.config(width=size)
         self.update_idletasks()
         self.player_area.config(height=self.player_area.winfo_width())
 
