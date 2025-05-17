@@ -19,7 +19,7 @@ class App(tk.Tk):
         self.geometry("900x600")
 
         # 创建水平方向的 PanedWindow
-        paned = tk.PanedWindow(self, orient="horizontal")
+        paned = tk.PanedWindow(self, orient="horizontal", sashwidth=8)
         paned.pack(fill="both", expand=True)
 
         left_frame = tk.Frame(paned, padx=5, pady=5)
@@ -108,20 +108,22 @@ class App(tk.Tk):
     def load_radios_from_default(self):
         default_path = "radios.json"  # 可以改成自己的文件名
         if not os.path.exists(default_path):
-            messagebox.showwarning("提示", f"未找到广播列表文件: {default_path}")
+            messagebox.showwarning(
+                "提示", f"未找到广播列表文件: {default_path}", parent=self
+            )
             return
-        result = load_radios_from_json(default_path)
+        result = self.load_radios_from_json(default_path)
         self.load_radios_tree(result)
 
-
-def load_radios_from_json(filepath):
-    try:
-        with open(filepath, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        return data
-    except Exception as e:
-        print(f"读取广播列表JSON失败: {e}")
-        return []
+    def load_radios_from_json(self, filepath):
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            return data
+        except Exception as e:
+            messagebox.showerror("错误", f"读取广播列表JSON失败: {e}", parent=self)
+            print(f"读取广播列表JSON失败: {e}")
+            return []
 
 
 def main():
