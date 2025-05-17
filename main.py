@@ -74,24 +74,21 @@ class App(tk.Tk):
         # 状态栏
         self.status_label = tk.Label(
             right_frame,
-            text="没有播放",
             anchor="w",
         )
-        self.status_label.grid(row=0, column=0, sticky="ew", padx=5, pady=2)
+        self.status_label.pack(fill="x", padx=5, pady=2)
 
         # 播放区，Frame用于嵌入VLC
         self.player_area = tk.Frame(right_frame, bg="black", width=400, height=400)
-        self.player_area.grid(row=1, column=0, padx=5, pady=(5, 2))
+        self.player_area.pack(anchor="w", padx=5, pady=5)
 
         # 控制按钮区
         control_frame = tk.Frame(right_frame)
-        control_frame.grid(row=2, column=0, sticky="n", padx=5, pady=(2, 5))
+        control_frame.pack(anchor="w", padx=5, pady=5)
 
-        play_btn = ttk.Button(control_frame, text="播放", command=self.vlc_play)
-        pause_btn = ttk.Button(control_frame, text="暂停", command=self.vlc_pause)
-        stop_btn = ttk.Button(control_frame, text="停止", command=self.vlc_stop)
+        play_btn = ttk.Button(control_frame, text="播放", command=self.play_selected)
+        stop_btn = ttk.Button(control_frame, text="停止", command=self.stop_playback)
         play_btn.pack(side="left", padx=(0, 5))
-        pause_btn.pack(side="left", padx=(0, 5))
         stop_btn.pack(side="left")
 
         # ----------- VLC 相关 重点 -----------
@@ -102,6 +99,7 @@ class App(tk.Tk):
 
         # ----------- 启动后自动加载 -----------
         self.after(100, self.load_radios_from_default)
+        self.update_status("未播放")
 
     def load_radios_tree(self, result):
         """
@@ -163,36 +161,60 @@ class App(tk.Tk):
         # 只绑定一次
         self.unbind("<Map>")
 
-    def vlc_play(self):
-        # 示例：播放本地或网络流
-        media = self.vlc_instance.media_new("https://www.radiostream.com/someurl.mp3")
+    def vlc_play(self, url: str):
+        self.vlc_player.stop()
+        media = self.vlc_instance.media_new(url)
         self.vlc_player.set_media(media)
         self.vlc_player.play()
 
-    def vlc_pause(self):
-        self.vlc_player.pause()
-
-    def vlc_stop(self):
+    def stop_playback(self):
         self.vlc_player.stop()
+        self.update_status("已停止播放")
 
-    def on_tree_double_click(self, event):
+    def on_tree_double_click(self, _event):
         # 获取鼠标所在item的iid
-        item = self.tree.identify_row(event.y)
-        if not item:
-            return
-        if radio := self.radios_map.get(item):
-            # 获取第一个流的URL
-            stream_url = radio.get("streams", [{}])[0].get("url")
-            self.vlc_player.stop()
-            media = self.vlc_instance.media_new(stream_url)
-            self.vlc_player.set_media(media)
-            self.vlc_player.play()
+        self.play_selected()
 
-    def update_status(self, is_playing, name=None):
-        if is_playing and name:
-            self.status_label.config(text=f"正在播放：{name}")
+    def update_status(self, status: str):
+        self.status_label.config(text=status)
+
+    def get_selected_or_first(self):
+        def get_first_leaf(parent=None):
+            nodes = self.tree.get_children(parent)
+            for node in nodes:
+                children = self.tree.get_children(node)
+                if children:
+                    leaf = get_first_leaf(node)
+                    if leaf:
+                        return leaf
+                else:
+                    return node
+            return None
+
+        selection = self.tree.selection()
+        if selection:
+            return selection[0]
         else:
-            self.status_label.config(text="没有播放")
+            return get_first_leaf()
+
+    def play_selected(self):
+        item_id = self.get_selected_or_first()
+        if item_id is None or item_id not in self.radios_map:
+            self.update_status("无可播放项")
+            return
+        # 设Treeview选中项高亮
+        self.tree.selection_set(item_id)
+        radio_name = self.tree.item(item_id, "text")
+        # 获取第一个流的URL
+        if stream_url := self.radios_map[item_id].get("streams", [{}])[0].get("url"):
+            self.vlc_play(stream_url)
+            self.update_status(f"播放中: {radio_name}")
+        else:
+            self.update_status("无可播放项")
+            messagebox.showwarning(
+                "提示", f"未找到可播放的流: {radio_name}", parent=self
+            )
+            return
 
 
 def main():
