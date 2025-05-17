@@ -52,7 +52,7 @@ result = [
                 "streams": [
                     {
                         "url": stream.get("url"),
-                        "description": stream.get("resolution", ""),
+                        "description": stream.get("resolution"),
                     }
                     for stream in item.get("other_info11", [])
                 ],
@@ -62,7 +62,7 @@ result = [
     },
     {
         "name": "地方广播",
-        "radios": [
+        "children": [
             {
                 "name": district,
                 "radios": [
@@ -73,7 +73,7 @@ result = [
                         "streams": [
                             {
                                 "url": stream.get("url"),
-                                "description": stream.get("resolution", ""),
+                                "description": stream.get("resolution"),
                             }
                             for stream in item.get("other_info11", [])
                         ],
@@ -88,6 +88,7 @@ result = [
 ]
 
 # 5. 保存，result直接输出到标准输出流
+# sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 json.dump(result, sys.stdout, ensure_ascii=False, indent=2)
 print("\n", file=sys.stdout)  # 确保结尾换行
 print("完成！已保存为 radios.json", file=sys.stderr)

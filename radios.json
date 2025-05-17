@@ -1,0 +1,4571 @@
+[
+  {
+    "name": "国家广播",
+    "radios": [
+      {
+        "name": "中国之声",
+        "description": "中央人民广播电台第一套新闻综合频率，是中国广播界最具权威性和影响力的、唯一能覆盖全国的广播节目，中国国家电台最具权威的新闻综合频率，中国新闻广播第一品牌。",
+        "full_name": "中国之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn001.cnr.cn/live/zgzs/index.m3u8?key=3cebd24ba59a49e00537be1875c4f92e&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn001.cnr.cn/live/zgzs/index.m3u8?key=3cebd24ba59a49e00537be1875c4f92e&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn001.cnr.cn/live/zgzs/index.m3u8?key=3cebd24ba59a49e00537be1875c4f92e&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "经济之声",
+        "description": "中央人民广播电台第二套节目，覆盖全国的财经专业媒体。经济之声立足于“国家级现代传媒机构”的定位，传播全球最新财经资讯，引领经济话语。",
+        "full_name": "经济之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn002.cnr.cn/live/jjzs/index.m3u8?key=3e7956fbfb67f62a911c4b321bcbc26c&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn002.cnr.cn/live/jjzs/index.m3u8?key=3e7956fbfb67f62a911c4b321bcbc26c&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn002.cnr.cn/live/jjzs/index.m3u8?key=3e7956fbfb67f62a911c4b321bcbc26c&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "音乐之声",
+        "description": "中央广播电视总台央广MusicRadio音乐之声——我要我的音乐！",
+        "full_name": "音乐之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn003.cnr.cn/live/yyzs/index.m3u8?key=b061a8248d75056af37dc4bcbc714198&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn003.cnr.cn/live/yyzs/index.m3u8?key=b061a8248d75056af37dc4bcbc714198&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn003.cnr.cn/live/yyzs/index.m3u8?key=b061a8248d75056af37dc4bcbc714198&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "经典音乐广播",
+        "description": "中央广播电视总台央广Golden Radio经典音乐广播——岁月最深情！",
+        "full_name": "经典音乐广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn004.cnr.cn/live/dszs/index.m3u8?key=900d7e1c35ad7fed5af26ec3c3733b67&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn004.cnr.cn/live/dszs/index.m3u8?key=900d7e1c35ad7fed5af26ec3c3733b67&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn004.cnr.cn/live/dszs/index.m3u8?key=900d7e1c35ad7fed5af26ec3c3733b67&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "台海之声",
+        "description": "中华之声是中央人民广播电台对台湾及海外听众服务的专业频率。中华之声为新闻综合频率，报道海峡两岸大事，为台湾听众提供最快捷的新闻资讯。",
+        "full_name": "台海之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn005.cnr.cn/live/zhzs/index.m3u8?key=95e6bd871cfa8a21e237a4d685ec2c85&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn005.cnr.cn/live/zhzs/index.m3u8?key=95e6bd871cfa8a21e237a4d685ec2c85&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn005.cnr.cn/live/zhzs/index.m3u8?key=95e6bd871cfa8a21e237a4d685ec2c85&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "神州之声",
+        "description": "中央人民广播电台对台湾广播方言文艺频率，神州之声为方言文艺频率，以闽南话、客家话向台湾同胞报道台胞祖地信息，传递乡情亲情、展示中华文化的魅力。",
+        "full_name": "神州之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn006.cnr.cn/live/szzs/index.m3u8?key=7604010a3451a7ebc6ed92abf26fc5c0&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn006.cnr.cn/live/szzs/index.m3u8?key=7604010a3451a7ebc6ed92abf26fc5c0&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn006.cnr.cn/live/szzs/index.m3u8?key=7604010a3451a7ebc6ed92abf26fc5c0&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "大湾区之声",
+        "description": "我国首个大湾区广播电台——中央广播电视总台粤港澳大湾区之声",
+        "full_name": "大湾区之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn007.cnr.cn/live/hxzs/index.m3u8?key=c97af29a0e6ecfe28f9753b5576f0fa0&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn007.cnr.cn/live/hxzs/index.m3u8?key=c97af29a0e6ecfe28f9753b5576f0fa0&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn007.cnr.cn/live/hxzs/index.m3u8?key=c97af29a0e6ecfe28f9753b5576f0fa0&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "民族之声",
+        "description": "中央广播电视总台民族之声开播于1950年5月22日。该台每日使用调频、中波和短波向全中国少数民族地区播音，使用蒙古语和朝鲜语播音，全日播放20小时。",
+        "full_name": "民族之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn009.cnr.cn/live/mzzs/index.m3u8?key=d7d28ae270d867e4bd3eeab4294ff245&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn009.cnr.cn/live/mzzs/index.m3u8?key=d7d28ae270d867e4bd3eeab4294ff245&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn009.cnr.cn/live/mzzs/index.m3u8?key=d7d28ae270d867e4bd3eeab4294ff245&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "文艺之声",
+        "description": "中央人民广播电台系列频率的第九套节目，多种艺术形式，通过脱口秀、资讯、访谈、文化评论等节目方式，让整个频率成为京城文艺生活的风向标、权威文艺生活的麦克风、精品文艺节目的演艺场，是中国主流文化传播的第一权威广播媒体。",
+        "full_name": "文艺之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn010.cnr.cn/live/wyzs/index.m3u8?key=7d3d140803fe4d0c7f11744b97a5f156&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn010.cnr.cn/live/wyzs/index.m3u8?key=7d3d140803fe4d0c7f11744b97a5f156&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn010.cnr.cn/live/wyzs/index.m3u8?key=7d3d140803fe4d0c7f11744b97a5f156&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "老年之声",
+        "description": "中央人民广播电台第十套节目老年之声，根据老年人的生理、心理特点，全方位打造老年人的精神文化家园。",
+        "full_name": "老年之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn011.cnr.cn/live/lnzs/index.m3u8?key=351e2f95883e0bb1a6b02747d88d16f9&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn011.cnr.cn/live/lnzs/index.m3u8?key=351e2f95883e0bb1a6b02747d88d16f9&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn011.cnr.cn/live/lnzs/index.m3u8?key=351e2f95883e0bb1a6b02747d88d16f9&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "藏语广播",
+        "description": "中央广播电视总台藏语广播为新闻综合频率，全部用藏语广播，其主要内容是传播国内外重大新闻，报道西藏和其他藏区的历史文化、社会发展和农牧民生活，为藏语听众提供生活和文化娱乐等方面的信息服务。",
+        "full_name": "藏语广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn012.cnr.cn/live/zygb/index.m3u8?key=304208e3a27b6f1a8797ff8422af29e7&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn012.cnr.cn/live/zygb/index.m3u8?key=304208e3a27b6f1a8797ff8422af29e7&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn012.cnr.cn/live/zygb/index.m3u8?key=304208e3a27b6f1a8797ff8422af29e7&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "阅读之声",
+        "description": "听书，听世界。",
+        "full_name": "阅读之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn014.cnr.cn/live/ylgb/index.m3u8?key=b18fa94bd976b92288ec4ee349e54404&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn014.cnr.cn/live/ylgb/index.m3u8?key=b18fa94bd976b92288ec4ee349e54404&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn014.cnr.cn/live/ylgb/index.m3u8?key=b18fa94bd976b92288ec4ee349e54404&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "维语广播",
+        "description": "中央广播电视总台维语广播，以报道国内外重大新闻，反映新疆各族群众生活、现代化建设成就，传播新疆各民族历史文化，提供生活信息、文化娱乐服务为主要内容，是新疆各族群众了解各类信息的重要窗口。",
+        "full_name": "维语广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn013.cnr.cn/live/wygb/index.m3u8?key=87241123c516b7980d412bde3d7fed3b&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn013.cnr.cn/live/wygb/index.m3u8?key=87241123c516b7980d412bde3d7fed3b&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn013.cnr.cn/live/wygb/index.m3u8?key=87241123c516b7980d412bde3d7fed3b&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "香港之声",
+        "description": "香港之声是中央人民广播电台开办的第十四套广播节目，是服务香港听众的数字广播。香港之声全天24小时不间断播音，节目内容包括新闻、文化艺术、财经和生活服务四个方面。",
+        "full_name": "香港之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn008.cnr.cn/live/xgzs/index.m3u8?key=6042972cca5e50600037a7e89cfd8456&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn008.cnr.cn/live/xgzs/index.m3u8?key=6042972cca5e50600037a7e89cfd8456&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn008.cnr.cn/live/xgzs/index.m3u8?key=6042972cca5e50600037a7e89cfd8456&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "中国交通广播",
+        "description": "中国交通广播是由交通运输部和中央人民广播电台联合打造的国家级交通广播，中国交通广播按照“平时服务、突发应急”的原则进行建设，是国家应急广播体系的重要组成部分。",
+        "full_name": "中国交通广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8?key=747f112156184bb4a7b83460f3d7e4a1&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8?key=747f112156184bb4a7b83460f3d7e4a1&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8?key=747f112156184bb4a7b83460f3d7e4a1&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "中国乡村之声",
+        "description": "中央人民广播电台中国乡村之声为全国性对农公益广播。立足公益性，突出服务性，强化实用性，全天24小时播出谈话类、信息类、服务类和文娱类的广播节目。",
+        "full_name": "中国乡村之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn017.cnr.cn/live/xczs/index.m3u8?key=c253f180eaf444516bf0b803e94fc505&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn017.cnr.cn/live/xczs/index.m3u8?key=c253f180eaf444516bf0b803e94fc505&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn017.cnr.cn/live/xczs/index.m3u8?key=c253f180eaf444516bf0b803e94fc505&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "哈语广播",
+        "description": "中央广播电视总台哈萨克语广播，哈萨克语广播强化服务功能，节目影响不断扩大，深受哈萨克族听众的喜爱。",
+        "full_name": "哈语广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn025.cnr.cn/live/hygb/index.m3u8?key=86ed8beb6a49d5d509dc0a937138d2ad&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn025.cnr.cn/live/hygb/index.m3u8?key=86ed8beb6a49d5d509dc0a937138d2ad&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn025.cnr.cn/live/hygb/index.m3u8?key=86ed8beb6a49d5d509dc0a937138d2ad&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "环球资讯广播",
+        "description": "",
+        "full_name": "环球资讯广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://sk.cri.cn/905.m3u8?key=63ceaac37ba047932a212fa169028fba&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://sk.cri.cn/905.m3u8?key=63ceaac37ba047932a212fa169028fba&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://sk.cri.cn/905.m3u8?key=63ceaac37ba047932a212fa169028fba&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "南海之声",
+        "description": "",
+        "full_name": "南海之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://sk.cri.cn/nhzs.m3u8?key=96c9f9f9da2bfd0c82c349a0460abed4&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://sk.cri.cn/nhzs.m3u8?key=96c9f9f9da2bfd0c82c349a0460abed4&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://sk.cri.cn/nhzs.m3u8?key=96c9f9f9da2bfd0c82c349a0460abed4&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "轻松调频",
+        "description": "",
+        "full_name": "轻松调频 - 央广网",
+        "streams": [
+          {
+            "url": "https://sk.cri.cn/915.m3u8?key=99cbfccc2c9cc0bdb3c3b2094b2ebb8d&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://sk.cri.cn/915.m3u8?key=99cbfccc2c9cc0bdb3c3b2094b2ebb8d&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://sk.cri.cn/915.m3u8?key=99cbfccc2c9cc0bdb3c3b2094b2ebb8d&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "HITFM国际流行音乐",
+        "description": "",
+        "full_name": "HITFM国际流行音乐 - 央广网",
+        "streams": [
+          {
+            "url": "https://sk.cri.cn/887.m3u8?key=db2f625d0656eb4dce42c3f1ce2519df&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://sk.cri.cn/887.m3u8?key=db2f625d0656eb4dce42c3f1ce2519df&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://sk.cri.cn/887.m3u8?key=db2f625d0656eb4dce42c3f1ce2519df&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "英语资讯广播 CGTN Radio",
+        "description": "",
+        "full_name": "英语资讯广播 CGTN Radio - 央广网",
+        "streams": [
+          {
+            "url": "https://sk.cri.cn/am846.m3u8?key=892b0d7be0c1e80b466fd8c501956027&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://sk.cri.cn/am846.m3u8?key=892b0d7be0c1e80b466fd8c501956027&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://sk.cri.cn/am846.m3u8?key=892b0d7be0c1e80b466fd8c501956027&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "中国之声",
+        "description": "中央人民广播电台第一套新闻综合频率，是中国广播界最具权威性和影响力的、唯一能覆盖全国的广播节目，中国国家电台最具权威的新闻综合频率，中国新闻广播第一品牌。",
+        "full_name": "中国之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn001.cnr.cn/live/zgzs/index.m3u8?key=3cebd24ba59a49e00537be1875c4f92e&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn001.cnr.cn/live/zgzs/index.m3u8?key=3cebd24ba59a49e00537be1875c4f92e&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn001.cnr.cn/live/zgzs/index.m3u8?key=3cebd24ba59a49e00537be1875c4f92e&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "经济之声",
+        "description": "中央人民广播电台第二套节目，覆盖全国的财经专业媒体。经济之声立足于“国家级现代传媒机构”的定位，传播全球最新财经资讯，引领经济话语。",
+        "full_name": "经济之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn002.cnr.cn/live/jjzs/index.m3u8?key=3e7956fbfb67f62a911c4b321bcbc26c&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn002.cnr.cn/live/jjzs/index.m3u8?key=3e7956fbfb67f62a911c4b321bcbc26c&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn002.cnr.cn/live/jjzs/index.m3u8?key=3e7956fbfb67f62a911c4b321bcbc26c&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "音乐之声",
+        "description": "中央广播电视总台央广MusicRadio音乐之声——我要我的音乐！",
+        "full_name": "音乐之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn003.cnr.cn/live/yyzs/index.m3u8?key=b061a8248d75056af37dc4bcbc714198&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn003.cnr.cn/live/yyzs/index.m3u8?key=b061a8248d75056af37dc4bcbc714198&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn003.cnr.cn/live/yyzs/index.m3u8?key=b061a8248d75056af37dc4bcbc714198&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "经典音乐广播",
+        "description": "中央广播电视总台央广Golden Radio经典音乐广播——岁月最深情！",
+        "full_name": "经典音乐广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn004.cnr.cn/live/dszs/index.m3u8?key=900d7e1c35ad7fed5af26ec3c3733b67&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn004.cnr.cn/live/dszs/index.m3u8?key=900d7e1c35ad7fed5af26ec3c3733b67&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn004.cnr.cn/live/dszs/index.m3u8?key=900d7e1c35ad7fed5af26ec3c3733b67&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "台海之声",
+        "description": "中华之声是中央人民广播电台对台湾及海外听众服务的专业频率。中华之声为新闻综合频率，报道海峡两岸大事，为台湾听众提供最快捷的新闻资讯。",
+        "full_name": "台海之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn005.cnr.cn/live/zhzs/index.m3u8?key=95e6bd871cfa8a21e237a4d685ec2c85&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn005.cnr.cn/live/zhzs/index.m3u8?key=95e6bd871cfa8a21e237a4d685ec2c85&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn005.cnr.cn/live/zhzs/index.m3u8?key=95e6bd871cfa8a21e237a4d685ec2c85&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "神州之声",
+        "description": "中央人民广播电台对台湾广播方言文艺频率，神州之声为方言文艺频率，以闽南话、客家话向台湾同胞报道台胞祖地信息，传递乡情亲情、展示中华文化的魅力。",
+        "full_name": "神州之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn006.cnr.cn/live/szzs/index.m3u8?key=7604010a3451a7ebc6ed92abf26fc5c0&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn006.cnr.cn/live/szzs/index.m3u8?key=7604010a3451a7ebc6ed92abf26fc5c0&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn006.cnr.cn/live/szzs/index.m3u8?key=7604010a3451a7ebc6ed92abf26fc5c0&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "大湾区之声",
+        "description": "我国首个大湾区广播电台——中央广播电视总台粤港澳大湾区之声",
+        "full_name": "大湾区之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn007.cnr.cn/live/hxzs/index.m3u8?key=c97af29a0e6ecfe28f9753b5576f0fa0&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn007.cnr.cn/live/hxzs/index.m3u8?key=c97af29a0e6ecfe28f9753b5576f0fa0&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn007.cnr.cn/live/hxzs/index.m3u8?key=c97af29a0e6ecfe28f9753b5576f0fa0&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "民族之声",
+        "description": "中央广播电视总台民族之声开播于1950年5月22日。该台每日使用调频、中波和短波向全中国少数民族地区播音，使用蒙古语和朝鲜语播音，全日播放20小时。",
+        "full_name": "民族之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn009.cnr.cn/live/mzzs/index.m3u8?key=d7d28ae270d867e4bd3eeab4294ff245&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn009.cnr.cn/live/mzzs/index.m3u8?key=d7d28ae270d867e4bd3eeab4294ff245&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn009.cnr.cn/live/mzzs/index.m3u8?key=d7d28ae270d867e4bd3eeab4294ff245&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "文艺之声",
+        "description": "中央人民广播电台系列频率的第九套节目，多种艺术形式，通过脱口秀、资讯、访谈、文化评论等节目方式，让整个频率成为京城文艺生活的风向标、权威文艺生活的麦克风、精品文艺节目的演艺场，是中国主流文化传播的第一权威广播媒体。",
+        "full_name": "文艺之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn010.cnr.cn/live/wyzs/index.m3u8?key=7d3d140803fe4d0c7f11744b97a5f156&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn010.cnr.cn/live/wyzs/index.m3u8?key=7d3d140803fe4d0c7f11744b97a5f156&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn010.cnr.cn/live/wyzs/index.m3u8?key=7d3d140803fe4d0c7f11744b97a5f156&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "老年之声",
+        "description": "中央人民广播电台第十套节目老年之声，根据老年人的生理、心理特点，全方位打造老年人的精神文化家园。",
+        "full_name": "老年之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn011.cnr.cn/live/lnzs/index.m3u8?key=351e2f95883e0bb1a6b02747d88d16f9&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn011.cnr.cn/live/lnzs/index.m3u8?key=351e2f95883e0bb1a6b02747d88d16f9&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn011.cnr.cn/live/lnzs/index.m3u8?key=351e2f95883e0bb1a6b02747d88d16f9&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "藏语广播",
+        "description": "中央广播电视总台藏语广播为新闻综合频率，全部用藏语广播，其主要内容是传播国内外重大新闻，报道西藏和其他藏区的历史文化、社会发展和农牧民生活，为藏语听众提供生活和文化娱乐等方面的信息服务。",
+        "full_name": "藏语广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn012.cnr.cn/live/zygb/index.m3u8?key=304208e3a27b6f1a8797ff8422af29e7&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn012.cnr.cn/live/zygb/index.m3u8?key=304208e3a27b6f1a8797ff8422af29e7&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn012.cnr.cn/live/zygb/index.m3u8?key=304208e3a27b6f1a8797ff8422af29e7&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "阅读之声",
+        "description": "听书，听世界。",
+        "full_name": "阅读之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn014.cnr.cn/live/ylgb/index.m3u8?key=b18fa94bd976b92288ec4ee349e54404&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn014.cnr.cn/live/ylgb/index.m3u8?key=b18fa94bd976b92288ec4ee349e54404&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn014.cnr.cn/live/ylgb/index.m3u8?key=b18fa94bd976b92288ec4ee349e54404&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "维语广播",
+        "description": "中央广播电视总台维语广播，以报道国内外重大新闻，反映新疆各族群众生活、现代化建设成就，传播新疆各民族历史文化，提供生活信息、文化娱乐服务为主要内容，是新疆各族群众了解各类信息的重要窗口。",
+        "full_name": "维语广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn013.cnr.cn/live/wygb/index.m3u8?key=87241123c516b7980d412bde3d7fed3b&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn013.cnr.cn/live/wygb/index.m3u8?key=87241123c516b7980d412bde3d7fed3b&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn013.cnr.cn/live/wygb/index.m3u8?key=87241123c516b7980d412bde3d7fed3b&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "香港之声",
+        "description": "香港之声是中央人民广播电台开办的第十四套广播节目，是服务香港听众的数字广播。香港之声全天24小时不间断播音，节目内容包括新闻、文化艺术、财经和生活服务四个方面。",
+        "full_name": "香港之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn008.cnr.cn/live/xgzs/index.m3u8?key=6042972cca5e50600037a7e89cfd8456&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn008.cnr.cn/live/xgzs/index.m3u8?key=6042972cca5e50600037a7e89cfd8456&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn008.cnr.cn/live/xgzs/index.m3u8?key=6042972cca5e50600037a7e89cfd8456&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "中国交通广播",
+        "description": "中国交通广播是由交通运输部和中央人民广播电台联合打造的国家级交通广播，中国交通广播按照“平时服务、突发应急”的原则进行建设，是国家应急广播体系的重要组成部分。",
+        "full_name": "中国交通广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8?key=747f112156184bb4a7b83460f3d7e4a1&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8?key=747f112156184bb4a7b83460f3d7e4a1&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8?key=747f112156184bb4a7b83460f3d7e4a1&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "中国乡村之声",
+        "description": "中央人民广播电台中国乡村之声为全国性对农公益广播。立足公益性，突出服务性，强化实用性，全天24小时播出谈话类、信息类、服务类和文娱类的广播节目。",
+        "full_name": "中国乡村之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn017.cnr.cn/live/xczs/index.m3u8?key=c253f180eaf444516bf0b803e94fc505&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn017.cnr.cn/live/xczs/index.m3u8?key=c253f180eaf444516bf0b803e94fc505&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn017.cnr.cn/live/xczs/index.m3u8?key=c253f180eaf444516bf0b803e94fc505&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "哈语广播",
+        "description": "中央广播电视总台哈萨克语广播，哈萨克语广播强化服务功能，节目影响不断扩大，深受哈萨克族听众的喜爱。",
+        "full_name": "哈语广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://ngcdn025.cnr.cn/live/hygb/index.m3u8?key=86ed8beb6a49d5d509dc0a937138d2ad&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://ngcdn025.cnr.cn/live/hygb/index.m3u8?key=86ed8beb6a49d5d509dc0a937138d2ad&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://ngcdn025.cnr.cn/live/hygb/index.m3u8?key=86ed8beb6a49d5d509dc0a937138d2ad&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "环球资讯广播",
+        "description": "",
+        "full_name": "环球资讯广播 - 央广网",
+        "streams": [
+          {
+            "url": "https://sk.cri.cn/905.m3u8?key=63ceaac37ba047932a212fa169028fba&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://sk.cri.cn/905.m3u8?key=63ceaac37ba047932a212fa169028fba&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://sk.cri.cn/905.m3u8?key=63ceaac37ba047932a212fa169028fba&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "南海之声",
+        "description": "",
+        "full_name": "南海之声 - 央广网",
+        "streams": [
+          {
+            "url": "https://sk.cri.cn/nhzs.m3u8?key=96c9f9f9da2bfd0c82c349a0460abed4&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://sk.cri.cn/nhzs.m3u8?key=96c9f9f9da2bfd0c82c349a0460abed4&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://sk.cri.cn/nhzs.m3u8?key=96c9f9f9da2bfd0c82c349a0460abed4&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "轻松调频",
+        "description": "",
+        "full_name": "轻松调频 - 央广网",
+        "streams": [
+          {
+            "url": "https://sk.cri.cn/915.m3u8?key=99cbfccc2c9cc0bdb3c3b2094b2ebb8d&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://sk.cri.cn/915.m3u8?key=99cbfccc2c9cc0bdb3c3b2094b2ebb8d&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://sk.cri.cn/915.m3u8?key=99cbfccc2c9cc0bdb3c3b2094b2ebb8d&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "HITFM国际流行音乐",
+        "description": "",
+        "full_name": "HITFM国际流行音乐 - 央广网",
+        "streams": [
+          {
+            "url": "https://sk.cri.cn/887.m3u8?key=db2f625d0656eb4dce42c3f1ce2519df&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://sk.cri.cn/887.m3u8?key=db2f625d0656eb4dce42c3f1ce2519df&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://sk.cri.cn/887.m3u8?key=db2f625d0656eb4dce42c3f1ce2519df&time=1747479703",
+            "description": "L"
+          }
+        ]
+      },
+      {
+        "name": "英语资讯广播 CGTN Radio",
+        "description": "",
+        "full_name": "英语资讯广播 CGTN Radio - 央广网",
+        "streams": [
+          {
+            "url": "https://sk.cri.cn/am846.m3u8?key=892b0d7be0c1e80b466fd8c501956027&time=1747479703",
+            "description": "H"
+          },
+          {
+            "url": "https://sk.cri.cn/am846.m3u8?key=892b0d7be0c1e80b466fd8c501956027&time=1747479703",
+            "description": "M"
+          },
+          {
+            "url": "https://sk.cri.cn/am846.m3u8?key=892b0d7be0c1e80b466fd8c501956027&time=1747479703",
+            "description": "L"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "地方广播",
+    "children": [
+      {
+        "name": "北京",
+        "radios": [
+          {
+            "name": "北京新闻广播",
+            "description": "",
+            "full_name": "北京新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxbjxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxbjxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxbjxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "北京京津冀之声",
+            "description": "",
+            "full_name": "北京城市广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxbjcsfwgl/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxbjcsfwgl/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxbjcsfwgl/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "河北",
+        "radios": [
+          {
+            "name": "河北综合广播",
+            "description": "",
+            "full_name": "河北综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebzhgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebzhgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebzhgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "河北经济广播",
+            "description": "",
+            "full_name": "河北经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "河北交通广播",
+            "description": "",
+            "full_name": "河北交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "河北音乐广播",
+            "description": "",
+            "full_name": "河北音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "河北生活广播",
+            "description": "",
+            "full_name": "河北生活广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebshgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebshgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebshgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "河北文艺广播",
+            "description": "",
+            "full_name": "河北文艺广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebwygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebwygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhebwygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "山西",
+        "radios": [
+          {
+            "name": "山西综合广播",
+            "description": "",
+            "full_name": "山西综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxssxxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxssxxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxssxxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "内蒙古",
+        "radios": [
+          {
+            "name": "内蒙古音乐之声",
+            "description": "",
+            "full_name": "内蒙古音乐之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "内蒙古蒙古语广播",
+            "description": "",
+            "full_name": "内蒙古蒙古语广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgmygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgmygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgmygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "内蒙古评书曲艺广播",
+            "description": "",
+            "full_name": "内蒙古评书曲艺广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgpsqy/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgpsqy/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgpsqy/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "内蒙古经济生活广播",
+            "description": "",
+            "full_name": "内蒙古经济生活广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "内蒙古绿野之声广播",
+            "description": "",
+            "full_name": "内蒙古绿野之声广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmglyzs/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmglyzs/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmglyzs/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "内蒙古新闻综合广播",
+            "description": "",
+            "full_name": "内蒙古新闻综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmghyzhxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmghyzhxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmghyzhxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "内蒙古交通之声广播",
+            "description": "",
+            "full_name": "内蒙古交通之声广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "内蒙古对外广播",
+            "description": "",
+            "full_name": "内蒙古对外广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgdwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgdwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgdwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "呼伦贝尔蒙语广播",
+            "description": "",
+            "full_name": "呼伦贝尔蒙语广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmghlbemygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmghlbemygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmghlbemygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "呼伦贝尔汉语广播",
+            "description": "",
+            "full_name": "呼伦贝尔汉语广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmghlbehygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmghlbehygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmghlbehygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "蒙古语综合广播",
+            "description": "",
+            "full_name": "蒙古语综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgmyxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgmyxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32nmgmyxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "辽宁",
+        "radios": [
+          {
+            "name": "辽宁综合广播",
+            "description": null,
+            "full_name": "辽宁综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnzhgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnzhgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnzhgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "辽宁交通广播",
+            "description": "",
+            "full_name": "辽宁交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "辽宁经济广播",
+            "description": "",
+            "full_name": "辽宁经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnjjtb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnjjtb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnjjtb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "辽宁乡村广播",
+            "description": "",
+            "full_name": "辽宁乡村广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnxcgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnxcgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnxcgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "辽宁文艺广播",
+            "description": "",
+            "full_name": "辽宁文艺广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnwygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnwygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxlnwygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "吉林",
+        "radios": [
+          {
+            "name": "吉林新闻综合广播",
+            "description": "",
+            "full_name": "吉林新闻综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjlxwzhgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjlxwzhgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjlxwzhgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "吉林乡村广播",
+            "description": "",
+            "full_name": "吉林乡村广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "吉林交通广播",
+            "description": "",
+            "full_name": "吉林交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjljtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjljtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjljtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "吉林经济广播",
+            "description": "",
+            "full_name": "吉林经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjljjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjljjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxjljjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "延边新闻广播",
+            "description": "",
+            "full_name": "延边新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxybxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxybxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxybxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "延边文艺生活广播",
+            "description": "",
+            "full_name": "延边文艺生活广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxybwyshgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxybwyshgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxybwyshgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "黑龙江",
+        "radios": [
+          {
+            "name": "黑龙江新闻广播",
+            "description": "",
+            "full_name": "黑龙江新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "黑龙江女性广播",
+            "description": "",
+            "full_name": "黑龙江女性广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljnxgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljnxgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljnxgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "黑龙江音乐广播",
+            "description": "",
+            "full_name": "黑龙江音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "黑龙江高校广播",
+            "description": "",
+            "full_name": "黑龙江高校广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljgxgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljgxgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljgxgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "黑龙江朝语广播",
+            "description": "",
+            "full_name": "黑龙江朝语广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljcygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljcygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljcygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "黑龙江爱家频道广播",
+            "description": "",
+            "full_name": "黑龙江爱家频道广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljajgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljajgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljajgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "黑龙江私家车频道广播",
+            "description": "",
+            "full_name": "黑龙江私家车频道广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljsjcgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljsjcgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljsjcgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "黑龙江乡村广播",
+            "description": "",
+            "full_name": "黑龙江乡村广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljxcgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljxcgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljxcgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "黑龙江交通广播",
+            "description": "",
+            "full_name": "黑龙江交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hljjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "上海",
+        "radios": [
+          {
+            "name": "上海东方广播电台",
+            "description": "",
+            "full_name": "上海东方广播电台 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32dfgbdt/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32dfgbdt/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32dfgbdt/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "上海新闻广播",
+            "description": "",
+            "full_name": "上海新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32shrmgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32shrmgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32shrmgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "江苏",
+        "radios": [
+          {
+            "name": "江苏新闻综合广播",
+            "description": "",
+            "full_name": "江苏新闻综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsxwzhgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsxwzhgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsxwzhgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江苏新闻广播",
+            "description": "",
+            "full_name": "江苏新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江苏经典流行音乐",
+            "description": "",
+            "full_name": "江苏经典流行音乐 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsjdlxyy/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsjdlxyy/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsjdlxyy/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江苏音乐广播",
+            "description": "",
+            "full_name": "江苏音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江苏文艺广播",
+            "description": "",
+            "full_name": "江苏文艺广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jswygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jswygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jswygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江苏金陵之声",
+            "description": "",
+            "full_name": "江苏金陵之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsqctp/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsqctp/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsqctp/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江苏交通广播",
+            "description": "",
+            "full_name": "江苏交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江苏财经广播",
+            "description": "",
+            "full_name": "江苏财经广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jscjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jscjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jscjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江苏健康广播",
+            "description": "",
+            "full_name": "江苏健康广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsjkgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsjkgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsjkgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江苏故事广播",
+            "description": "",
+            "full_name": "江苏故事广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsgsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsgsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jsgsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "浙江",
+        "radios": [
+          {
+            "name": "浙江交通之声",
+            "description": "",
+            "full_name": "浙江交通之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "浙江女主播电台",
+            "description": "",
+            "full_name": "浙江女主播电台 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzj1045/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzj1045/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzj1045/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "浙江之声",
+            "description": "",
+            "full_name": "浙江之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjzs/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjzs/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjzs/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "浙江民生996",
+            "description": "",
+            "full_name": "浙江民生996 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjmsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjmsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjmsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "浙江经济广播",
+            "description": "",
+            "full_name": "浙江经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "浙江城市之声",
+            "description": "",
+            "full_name": "浙江城市之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjcszs/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjcszs/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzjcszs/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "浙江悦动之音",
+            "description": "",
+            "full_name": "浙江悦动之音 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzj968/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzj968/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxzj968/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "安徽",
+        "radios": [
+          {
+            "name": "安徽新闻广播",
+            "description": null,
+            "full_name": "安徽新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahxxgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahxxgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahxxgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "安徽经济广播",
+            "description": "",
+            "full_name": "安徽经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "安徽音乐广播",
+            "description": null,
+            "full_name": "安徽音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "安徽生活广播",
+            "description": null,
+            "full_name": "安徽生活广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahshgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahshgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahshgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "安徽交通广播",
+            "description": null,
+            "full_name": "安徽交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "安徽农村广播",
+            "description": null,
+            "full_name": "安徽农村广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahncgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahncgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahncgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "安徽小说评书广播",
+            "description": null,
+            "full_name": "安徽小说评书广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahxspsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahxspsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahxspsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "安徽戏曲广播",
+            "description": "",
+            "full_name": "安徽戏曲广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahxqgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahxqgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahxqgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "安徽旅游广播",
+            "description": null,
+            "full_name": "安徽旅游广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahlygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahlygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxahlygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "福建",
+        "radios": [
+          {
+            "name": "福建交通广播",
+            "description": "",
+            "full_name": "福建交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdnjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdnjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdnjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "福建经济电台961",
+            "description": null,
+            "full_name": "福建经济电台961 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdnjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdnjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdnjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "福建新闻广播",
+            "description": null,
+            "full_name": "福建新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "福建都市广播",
+            "description": "",
+            "full_name": "福建都市广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdndsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdndsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdndsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "福建音乐广播",
+            "description": "",
+            "full_name": "福建音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdnyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdnyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdnyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "福建东南广播",
+            "description": "",
+            "full_name": "福建东南广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdngb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdngb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32fjdngb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "江西",
+        "radios": [
+          {
+            "name": "江西新闻广播",
+            "description": null,
+            "full_name": "江西新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江西交通广播",
+            "description": null,
+            "full_name": "江西交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江西音乐广播",
+            "description": "",
+            "full_name": "江西音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江西都市广播",
+            "description": "",
+            "full_name": "江西都市广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxdsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxdsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxdsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江西民生广播",
+            "description": "",
+            "full_name": "江西民生广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxmsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxmsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxmsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "江西农村广播",
+            "description": "",
+            "full_name": "江西农村广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxncgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxncgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32jiangxncgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "山东",
+        "radios": [
+          {
+            "name": "山东交通广播",
+            "description": "",
+            "full_name": "山东交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "山东体育休闲广播",
+            "description": "",
+            "full_name": "山东体育休闲广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdtyxxgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdtyxxgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdtyxxgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "山东乡村广播",
+            "description": "",
+            "full_name": "山东乡村广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdxcgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdxcgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdxcgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "山东经济广播",
+            "description": "",
+            "full_name": "山东经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "山东文艺广播",
+            "description": "",
+            "full_name": "山东文艺广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdwyssgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdwyssgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdwyssgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "山东音乐广播",
+            "description": "",
+            "full_name": "山东音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsdyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "河南",
+        "radios": [
+          {
+            "name": "河南新闻广播",
+            "description": "",
+            "full_name": "河南新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "河南戏曲广播",
+            "description": "",
+            "full_name": "河南戏曲广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnxqgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnxqgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnxqgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "河南农村广播",
+            "description": "",
+            "full_name": "河南农村广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnncgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnncgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnncgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "河南旅游广播",
+            "description": "",
+            "full_name": "河南旅游广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnlygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnlygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnlygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "河南经济广播",
+            "description": "",
+            "full_name": "河南经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "河南信息广播",
+            "description": "",
+            "full_name": "河南信息广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnxxgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnxxgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhnxxgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "湖北",
+        "radios": [
+          {
+            "name": "湖北之声",
+            "description": "",
+            "full_name": "湖北之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubzsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubzsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubzsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "湖北妇女儿童广播",
+            "description": "",
+            "full_name": "湖北妇女儿童广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubfnetgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubfnetgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubfnetgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "湖北资讯广播",
+            "description": "",
+            "full_name": "湖北资讯广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubzxgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubzxgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubzxgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "湖北交通广播",
+            "description": "",
+            "full_name": "湖北交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "湖北经典音乐",
+            "description": "",
+            "full_name": "湖北经典音乐 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "湖北经济广播",
+            "description": "",
+            "full_name": "湖北经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "湖北生活广播",
+            "description": "",
+            "full_name": "湖北生活广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubczshgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubczshgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubczshgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "湖北农村广播",
+            "description": "",
+            "full_name": "湖北农村广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubncgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubncgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hubncgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "湖南",
+        "radios": [
+          {
+            "name": "湖南新闻频道",
+            "description": "",
+            "full_name": "湖南新闻频道 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hunxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hunxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hunxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "湖南电台潇湘之声",
+            "description": "",
+            "full_name": "湖南电台潇湘之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hunyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hunyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hunyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "湖南年代音乐台",
+            "description": "",
+            "full_name": "湖南年代音乐台 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hunlygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hunlygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32hunlygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "广东",
+        "radios": [
+          {
+            "name": "广东新闻广播",
+            "description": null,
+            "full_name": "广东新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广东股市广播",
+            "description": null,
+            "full_name": "广东股市广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdgsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdgsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdgsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广东音乐之声",
+            "description": null,
+            "full_name": "广东音乐之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdyyzs/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdyyzs/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdyyzs/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广东文体广播",
+            "description": null,
+            "full_name": "广东文体广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdwtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdwtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdwtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广东城市之声",
+            "description": null,
+            "full_name": "广东城市之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdcszs/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdcszs/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdcszs/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广东南粤之声",
+            "description": null,
+            "full_name": "广东南粤之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnyzs/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnyzs/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnyzs/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广东珠江经济台",
+            "description": null,
+            "full_name": "广东珠江经济台 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdzjjjt/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdzjjjt/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdzjjjt/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广东南方生活广播",
+            "description": null,
+            "full_name": "广东南方生活广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdnfshgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdnfshgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdnfshgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广东羊城交通广播",
+            "description": null,
+            "full_name": "广东羊城交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdycjtt/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdycjtt/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgdycjtt/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "深圳交通频率",
+            "description": "",
+            "full_name": "深圳交通频率 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxszjjpl/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxszjjpl/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxszjjpl/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "深圳私家车广播",
+            "description": "",
+            "full_name": "深圳私家车广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxszsjcgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxszsjcgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxszsjcgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "深圳飞扬971",
+            "description": "",
+            "full_name": "深圳飞扬971 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxszfy971/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxszfy971/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxszfy971/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "广西",
+        "radios": [
+          {
+            "name": "广西人民广播",
+            "description": "",
+            "full_name": "广西人民广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxrmgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxrmgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxrmgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广西经济广播",
+            "description": "",
+            "full_name": "广西经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广西教育生活广播",
+            "description": "",
+            "full_name": "广西教育生活广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gbjyshgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gbjyshgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gbjyshgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广西文艺广播",
+            "description": "",
+            "full_name": "广西文艺广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxwygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxwygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxwygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广西交通广播",
+            "description": "",
+            "full_name": "广西交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "广西对外广播",
+            "description": "",
+            "full_name": "广西对外广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxdwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxdwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gxdwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "海南",
+        "radios": [
+          {
+            "name": "海南音乐广播",
+            "description": "",
+            "full_name": "海南音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhainyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhainyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhainyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "海南交通广播",
+            "description": "",
+            "full_name": "海南交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhainjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhainjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhainjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "海南新闻广播",
+            "description": null,
+            "full_name": "海南新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhainxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhainxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxhainxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "重庆",
+        "radios": [
+          {
+            "name": "重庆音乐广播",
+            "description": "",
+            "full_name": "重庆音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "重庆文艺广播",
+            "description": null,
+            "full_name": "重庆文艺广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqwygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqwygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqwygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "重庆经济广播",
+            "description": null,
+            "full_name": "重庆经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "重庆新闻广播",
+            "description": null,
+            "full_name": "重庆新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "重庆都市广播",
+            "description": null,
+            "full_name": "重庆都市广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqdsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqdsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqdsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "重庆交通广播",
+            "description": "",
+            "full_name": "重庆交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxcqjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "四川",
+        "radios": [
+          {
+            "name": "四川经济广播",
+            "description": "",
+            "full_name": "四川经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "四川文艺广播",
+            "description": null,
+            "full_name": "四川文艺广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscwygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscwygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscwygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "四川岷江音乐频率",
+            "description": null,
+            "full_name": "四川岷江音乐频率 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscmjyyt/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscmjyyt/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscmjyyt/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "四川新闻频率",
+            "description": "",
+            "full_name": "四川新闻频率 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsclyshgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsclyshgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsclyshgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "四川交通广播",
+            "description": null,
+            "full_name": "四川交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "四川城市之音",
+            "description": null,
+            "full_name": "四川城市之音 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsccszs/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsccszs/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsccszs/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "四川民族频率",
+            "description": null,
+            "full_name": "四川民族频率 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscmzgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscmzgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxscmzgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "四川综合广播",
+            "description": "",
+            "full_name": "四川综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsczhgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsczhgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsczhgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "四川私家车925",
+            "description": null,
+            "full_name": "四川私家车925 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsc925/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsc925/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsc925/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "贵州",
+        "radios": [
+          {
+            "name": "贵州综合广播",
+            "description": "",
+            "full_name": "贵州综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzwxwzhgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzwxwzhgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzwxwzhgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "贵州经济广播",
+            "description": null,
+            "full_name": "贵州经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "贵州音乐广播",
+            "description": null,
+            "full_name": "贵州音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "贵州旅游广播",
+            "description": null,
+            "full_name": "贵州旅游广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzlygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzlygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzlygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "贵州故事广播",
+            "description": "",
+            "full_name": "贵州故事广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzgsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzgsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzgsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "贵州都市广播",
+            "description": "",
+            "full_name": "贵州都市广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzqcgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzqcgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32gzqcgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "云南",
+        "radios": [
+          {
+            "name": "云南交通广播",
+            "description": "",
+            "full_name": "云南交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "云南音乐广播",
+            "description": "",
+            "full_name": "云南音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "云南新闻广播",
+            "description": "",
+            "full_name": "云南新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "云南经济广播",
+            "description": null,
+            "full_name": "云南经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "云南FM99香格里拉之声",
+            "description": null,
+            "full_name": "云南FM99香格里拉之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxgllzs/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxgllzs/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxgllzs/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "云南民族广播",
+            "description": "",
+            "full_name": "云南民族广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynmzgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynmzgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxynmzgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "西藏",
+        "radios": [
+          {
+            "name": "西藏藏语广播",
+            "description": "",
+            "full_name": "西藏藏语广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzzygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzzygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzzygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "西藏汉语广播",
+            "description": "",
+            "full_name": "西藏汉语广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzhygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzhygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzhygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "西藏对外交通广播",
+            "description": "",
+            "full_name": "西藏对外交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzdwjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzdwjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzdwjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "西藏藏语康巴方言",
+            "description": "",
+            "full_name": "西藏藏语康巴方言 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzzykbfy/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzzykbfy/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzzykbfy/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "西藏都市生活广播",
+            "description": "",
+            "full_name": "西藏都市生活广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzdsshgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzdsshgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxzdsshgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "陕西",
+        "radios": [
+          {
+            "name": "陕西音乐广播",
+            "description": "",
+            "full_name": "陕西音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "陕西戏曲广播",
+            "description": "",
+            "full_name": "陕西戏曲广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxxqgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxxqgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxxqgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "陕西交通广播",
+            "description": "",
+            "full_name": "陕西交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "陕西农村广播",
+            "description": "",
+            "full_name": "陕西农村广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxncgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxncgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxncgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "陕西青春广播",
+            "description": "",
+            "full_name": "陕西青春广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxqcgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxqcgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxqcgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "陕西都市广播",
+            "description": "",
+            "full_name": "陕西都市广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxdsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxdsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxdsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "陕西新闻广播",
+            "description": "",
+            "full_name": "陕西新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "陕西经济广播",
+            "description": "",
+            "full_name": "陕西经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxsxxjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "甘肃",
+        "radios": [
+          {
+            "name": "甘肃新闻综合广播",
+            "description": "",
+            "full_name": "甘肃新闻综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsxwzhgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsxwzhgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsxwzhgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "甘肃农村广播",
+            "description": "",
+            "full_name": "甘肃农村广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsncgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsncgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsncgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "甘肃交通广播",
+            "description": "",
+            "full_name": "甘肃交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "甘肃都市调频",
+            "description": "",
+            "full_name": "甘肃都市调频 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "甘肃青春调频",
+            "description": "",
+            "full_name": "甘肃青春调频 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsqcgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsqcgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgsqcgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "甘肃黄河之声",
+            "description": null,
+            "full_name": "甘肃黄河之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "青海",
+        "radios": [
+          {
+            "name": "青海交通音乐广播",
+            "description": "",
+            "full_name": "青海交通音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhjtyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhjtyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhjtyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "青海广播电视台经济广播",
+            "description": "",
+            "full_name": "青海广播电视台经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "青海新闻综合广播 青海之声",
+            "description": "",
+            "full_name": "青海新闻综合广播 青海之声 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhwxzhgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhwxzhgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhwxzhgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "青海藏语广播",
+            "description": "",
+            "full_name": "青海藏语广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhzygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhzygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wx32qhzygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "宁夏",
+        "radios": [
+          {
+            "name": "宁夏新闻广播",
+            "description": "",
+            "full_name": "宁夏新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "宁夏经济广播",
+            "description": null,
+            "full_name": "宁夏经济广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxjjgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxjjgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxjjgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "宁夏都市广播",
+            "description": "",
+            "full_name": "宁夏都市广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxdsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxdsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxdsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "宁夏音乐广播",
+            "description": "",
+            "full_name": "宁夏音乐广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxyygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxyygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxnxyygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "新疆",
+        "radios": [
+          {
+            "name": "新疆新闻广播",
+            "description": "",
+            "full_name": "新疆新闻广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjxwgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjxwgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjxwgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "新疆交通广播",
+            "description": null,
+            "full_name": "新疆交通广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjjtgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjjtgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjjtgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "新疆私家车广播",
+            "description": "",
+            "full_name": "新疆私家车广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjsjcgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjsjcgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjsjcgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "新疆维语综合广播",
+            "description": "",
+            "full_name": "新疆维语综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjwyzhgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjwyzhgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjwyzhgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "新疆维吾尔语交通文艺广播",
+            "description": "",
+            "full_name": "新疆维吾尔语交通文艺广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjwyjtwygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjwyjtwygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjwyjtwygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "新疆蒙语广播",
+            "description": "",
+            "full_name": "新疆蒙语广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjmygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjmygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjmygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "新疆哈语广播",
+            "description": "",
+            "full_name": "新疆哈语广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjhygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjhygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjhygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "新疆柯尔克孜语广播",
+            "description": "",
+            "full_name": "新疆柯尔克孜语广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjkygb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjkygb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjkygb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "新疆兵团综合广播",
+            "description": "",
+            "full_name": "新疆兵团综合广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxbtzs/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxbtzs/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxbtzs/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          },
+          {
+            "name": "新疆绿色广播",
+            "description": "",
+            "full_name": "新疆绿色广播 - 央广网",
+            "streams": [
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjlsgb/playlist.m3u8",
+                "description": "H"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjlsgb/playlist.m3u8",
+                "description": "M"
+              },
+              {
+                "url": "http://satellitepull.cnr.cn/live/wxxjlsgb/playlist.m3u8",
+                "description": "L"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
+
