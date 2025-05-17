@@ -66,17 +66,26 @@ class App(tk.Tk):
         self.tree.bind("<Double-1>", self.on_tree_double_click)
 
         # 右侧：上为播放区，下为控制区
-        right_frame.rowconfigure(0, weight=5)
-        right_frame.rowconfigure(1, weight=1)
+        right_frame.rowconfigure(0, weight=0)  # 状态栏，不伸缩
+        right_frame.rowconfigure(1, weight=0)  # 播放区
+        right_frame.rowconfigure(2, weight=1)  # 控制区
         right_frame.columnconfigure(0, weight=1)
 
+        # 状态栏
+        self.status_label = tk.Label(
+            right_frame,
+            text="没有播放",
+            anchor="w",
+        )
+        self.status_label.grid(row=0, column=0, sticky="ew", padx=5, pady=2)
+
         # 播放区，Frame用于嵌入VLC
-        self.player_area = tk.Frame(right_frame, bg="black", width=400, height=300)
-        self.player_area.grid(row=0, column=0, sticky="nsew", padx=5, pady=(5, 2))
+        self.player_area = tk.Frame(right_frame, bg="black", width=400, height=400)
+        self.player_area.grid(row=1, column=0, padx=5, pady=(5, 2))
 
         # 控制按钮区
         control_frame = tk.Frame(right_frame)
-        control_frame.grid(row=1, column=0, sticky="ew", padx=5, pady=(2, 5))
+        control_frame.grid(row=2, column=0, sticky="n", padx=5, pady=(2, 5))
 
         play_btn = ttk.Button(control_frame, text="播放", command=self.vlc_play)
         pause_btn = ttk.Button(control_frame, text="暂停", command=self.vlc_pause)
@@ -178,6 +187,12 @@ class App(tk.Tk):
             media = self.vlc_instance.media_new(stream_url)
             self.vlc_player.set_media(media)
             self.vlc_player.play()
+
+    def update_status(self, is_playing, name=None):
+        if is_playing and name:
+            self.status_label.config(text=f"正在播放：{name}")
+        else:
+            self.status_label.config(text="没有播放")
 
 
 def main():
