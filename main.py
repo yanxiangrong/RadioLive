@@ -72,28 +72,24 @@ class App(tk.Tk):
         self.player_area.pack(padx=5, pady=(5, 2))
         right_frame.bind("<Configure>", self.keep_player_area_square)
 
-        # 新建 info_frame，包裹其它控件
-        info_frame = tk.Frame(right_frame)
-        info_frame.pack(fill="x", padx=5, pady=5)
-
         # 广播信息
         ttk.Label(
-            info_frame,
+            right_frame,
             textvariable=self.current_radio_name,
         ).pack(padx=5, pady=2)
 
         # 状态栏
         self.status_label = tk.Label(
-            info_frame,
+            right_frame,
         )
         self.status_label.pack(padx=5, pady=2)
         self.time_label = tk.Label(
-            info_frame,
+            right_frame,
         )
         self.time_label.pack(padx=5, pady=2)
 
         # 控制按钮区
-        control_frame = tk.Frame(info_frame)
+        control_frame = tk.Frame(right_frame)
         control_frame.pack(padx=5, pady=2)
         control_frame.columnconfigure(0, weight=1)
         control_frame.columnconfigure(1, weight=1)
