@@ -222,6 +222,7 @@ class App(tk.Tk):
         self.tree.selection_set(item_id)
         radio_name = self.tree.item(item_id, "text")
         self.set_radio_name(radio_name)
+        self.title(f"广播直播 - {radio_name}")
         # 获取第一个流的URL
         if stream_url := self.radios_map[item_id].get("streams", [{}])[0].get("url"):
             self.vlc_play(stream_url)

@@ -64,11 +64,11 @@ jobs:
 
       - name: Build exe
         run: |
-          pyinstaller --name RadioLive --noconsole --add-data "radios.json;." src/main.py
+          pyinstaller RadioLive.spec
 
       - name: Zip build output
         run: |
-          powershell -Command "Compress-Archive -Path dist/RadioLive/* -DestinationPath RadioLive.zip"
+          powershell -Command "Compress-Archive -Path dist/RadioLive -DestinationPath RadioLive.zip"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
