@@ -1,0 +1,88 @@
+name: Auto Tag, Build and Release
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    types: [ closed ]
+    branches: [ master ]
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+    outputs:
+      new_tag: ${{ steps.get_tag.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          git fetch --tags
+          latest_tag=$(git tag --list 'v*' --sort=-v:refname | head -n1)
+          if [ -z "$latest_tag" ]; then
+            echo "tag=v1.0.0" >> $GITHUB_OUTPUT
+          else
+            ver=${latest_tag#v}
+            IFS='.' read -r major minor patch <<< "$ver"
+            patch=$((patch+1))
+            echo "tag=v${major}.${minor}.${patch}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create new tag and push
+        env:
+          PAT: ${{ secrets.ACTIONS_PAT }}   # 需要提前设置 PAT
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git tag ${{ steps.get_tag.outputs.tag }}
+          git remote set-url origin https://${PAT}@github.com/${{ github.repository }}.git
+          git push origin ${{ steps.get_tag.outputs.tag }}
+
+  build_and_release:
+    needs: tag
+    runs-on: windows-latest
+    if: startsWith(needs.tag.outputs.new_tag, 'v')
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build exe
+        run: |
+          pyinstaller --name RadioLive --noconsole --add-data "radios.json;." src/main.py
+
+      - name: Zip build output
+        run: |
+          powershell -Command "Compress-Archive -Path dist/RadioLive/* -DestinationPath RadioLive.zip"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: RadioLive
+          path: RadioLive.zip
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ needs.tag.outputs.new_tag }}
+          files: RadioLive.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
