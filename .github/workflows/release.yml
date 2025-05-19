@@ -1,25 +1,17 @@
 name: Build and Release
 
 on:
-  workflow_dispatch:
-    inputs:
-      tag:
-        description: 'Release tag'
-        required: true
-  workflow_run:
-    workflows: [ "Auto Tag" ]
-    types:
-      - completed
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   build:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: ${{ github.event.inputs.tag || github.event.client_payload.tag }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,8 +29,7 @@ jobs:
 
       - name: Zip build output
         run: |
-          cd dist/RadioLive
-          powershell -Command "Compress-Archive -Path * -DestinationPath ../../RadioLive.zip"
+          powershell -Command "Compress-Archive -Path dist/RadioLive/* -DestinationPath RadioLive.zip"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -50,6 +41,5 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: RadioLive.zip
-          tag_name: ${{ github.event.inputs.tag || github.event.client_payload.tag }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

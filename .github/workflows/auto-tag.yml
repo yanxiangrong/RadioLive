@@ -30,17 +30,9 @@ jobs:
             echo "tag=v${major}.${minor}.${patch}" >> $GITHUB_OUTPUT
           fi
 
-      - name: Create new tag
+      - name: Create new tag and push
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git tag ${{ steps.get_tag.outputs.tag }}
           git push origin ${{ steps.get_tag.outputs.tag }}
-
-      - name: Trigger release workflow
-        uses: peter-evans/workflow-dispatch@v2
-        with:
-          workflow: release.yml
-          ref: master
-          inputs: |
-            tag: ${{ steps.get_tag.outputs.tag }}
