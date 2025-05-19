@@ -13,6 +13,9 @@ jobs:
     runs-on: windows-latest    # 打包 Windows exe
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.client_payload.tag }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
