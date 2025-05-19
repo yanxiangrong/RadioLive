@@ -1,6 +1,11 @@
 name: Build and Release
 
 on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag'
+        required: true
   workflow_run:
     workflows: [ "Auto Tag" ]
     types:
@@ -8,14 +13,13 @@ on:
 
 jobs:
   build:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-
-    runs-on: windows-latest    # 打包 Windows exe
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: ${{ github.event.client_payload.tag }}
+          ref: ${{ github.event.inputs.tag || github.event.client_payload.tag }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,16 +35,21 @@ jobs:
         run: |
           pyinstaller --name RadioLive --noconsole --add-data "radios.json;." src/main.py
 
+      - name: Zip build output
+        run: |
+          cd dist/RadioLive
+          powershell -Command "Compress-Archive -Path * -DestinationPath ../../RadioLive.zip"
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: RadioLive
-          path: dist/RadioLive/
+          path: RadioLive.zip
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/RadioLive/RadioLive.exe
-          tag_name: ${{ github.event.client_payload.tag }}
+          files: RadioLive.zip
+          tag_name: ${{ github.event.inputs.tag || github.event.client_payload.tag }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
