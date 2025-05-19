@@ -1,8 +1,8 @@
 import json
-import os
 import sys
 import tkinter as tk
 import uuid
+from pathlib import Path
 from tkinter import messagebox, ttk
 
 import vlc
@@ -144,8 +144,11 @@ class App(tk.Tk):
         add_nodes("", result)
 
     def load_radios_from_default(self):
-        default_path = "radios.json"  # 可以改成自己的文件名
-        if not os.path.exists(default_path):
+        if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
+            default_path = Path(__file__).resolve().with_name("radios.json")
+        else:
+            default_path = Path("radios.json")
+        if not default_path.exists():
             messagebox.showwarning(
                 "提示", f"未找到广播列表文件: {default_path}", parent=self
             )

@@ -5,7 +5,7 @@ a = Analysis(
     ['src\\main.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('radios.json', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
