@@ -158,7 +158,7 @@ class App(tk.Tk):
 
     def load_radios_from_json(self, filepath):
         try:
-            with open(filepath, "r", encoding="utf-8") as f:
+            with open(filepath, "r") as f:
                 data = json.load(f)
             return data
         except Exception as e:
